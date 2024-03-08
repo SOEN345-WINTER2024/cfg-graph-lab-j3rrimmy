@@ -1,7 +1,7 @@
 Jeremy Rimokh -- 40110746
 
 ## CFG Graph
-![Screenshot 2024-03-08 at 3 58 59 PM](https://github.com/SOEN345-WINTER2024/cfg-graph-lab-j3rrimmy/assets/98069409/bfdc6bd5-339c-4762-98aa-eff4d7ac522e)
+![CFG drawio](https://github.com/SOEN345-WINTER2024/cfg-graph-lab-j3rrimmy/assets/98069409/8da64214-7428-4121-875f-adbe3e0cf315)
 
 
 ### Node Coverage
