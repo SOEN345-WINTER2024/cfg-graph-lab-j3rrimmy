@@ -30,3 +30,4 @@ Jeremy Rimokh -- 40110746
 
 ## EFG Graph
 
+![EFG drawio](https://github.com/SOEN345-WINTER2024/cfg-graph-lab-j3rrimmy/assets/98069409/a18f975e-cc4b-45ab-9164-8406e3c8c14f)
