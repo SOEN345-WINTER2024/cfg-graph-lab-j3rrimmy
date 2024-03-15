@@ -31,3 +31,46 @@ Jeremy Rimokh -- 40110746
 ## EFG Graph
 
 ![EFG drawio](https://github.com/SOEN345-WINTER2024/cfg-graph-lab-j3rrimmy/assets/98069409/a18f975e-cc4b-45ab-9164-8406e3c8c14f)
+
+
+# Antimine-Android-Main
+## Method 
+    private fun listenToPurchase() {
+        if (!preferenceRepository.isPremiumEnabled() && iapHandler.isEnabled()) {
+            lifecycleScope.launch {
+                iapHandler.listenPurchase().collect {
+                    if (it) {
+                        recreate()
+                    }
+                }
+            }
+        }
+    }
+## CFG Graph
+<img width="338" alt="Screen Shot 2024-03-15 at 3 37 08 PM" src="https://github.com/SOEN345-WINTER2024/cfg-graph-lab-j3rrimmy/assets/98069409/4b577d92-cd81-40ff-a4e4-de47a80a82ef">
+
+
+### Node Coverage
+#### Node Test Requirements
+[1][2][3][4]
+
+#### Node Test Paths
+[1,2,3,4]
+
+### Edge Coverage
+#### Edge Test Requirements 
+[1,2][2,3][3,4]
+
+#### Edge Test Paths
+[1,2,3,4]
+
+### Edge-Pair Coverage
+#### Edge-Pair Test Requirements
+[1,2,3][2,3,4]
+
+#### Edge-Pair Test Paths
+[1,2,3,4]
+
+## EFG Graph
+<img width="160" alt="Screen Shot 2024-03-15 at 3 42 08 PM" src="https://github.com/SOEN345-WINTER2024/cfg-graph-lab-j3rrimmy/assets/98069409/f1005105-d0aa-4de5-87a4-4b5dac502502">
+
